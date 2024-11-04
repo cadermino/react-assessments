@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Weather, weatherData } from '../../data/weatherData';
+import { weatherData } from '../../data/weatherData';
 import WeatherCard from '../WeatherCard';
 import "./index.css";
 
@@ -24,7 +24,7 @@ const WeatherList: React.FC = () => {
         <table className="table search-results">
           <thead>
             <tr>
-              <th>City</th>
+              <th>Cityy</th>
               <th>Temperature</th>
               <th>Description</th>
               <th>Action</th>
